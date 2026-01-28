@@ -1,0 +1,26 @@
+article{
+    border : 1px solid lightgray;
+    padding: 20px;
+    text-align: center;
+}
+section{
+    display: flex;
+}
+main{
+    border: 1px solid red;
+}
+.big-ctr{
+    flex-grow: 1;
+}
+.mid-ctr, .empty{
+    width: 20%;
+}
+.weekdays, .weekends{
+    flex-grow: 1;
+}
+.empty{
+    border-top:none;
+}
+.mid-ctr{
+    border-bottom: none;
+}

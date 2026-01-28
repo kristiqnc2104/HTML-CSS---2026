@@ -1,0 +1,16 @@
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px;
+    width:40%;
+    margin: 10% auto;
+}
+body{
+    background-color: lightgray;
+}
+p, h2, ul, li{
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+}

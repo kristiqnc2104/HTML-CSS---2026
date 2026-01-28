@@ -1,0 +1,34 @@
+div{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 40px;
+    
+}
+body{
+    background-color: lightgray;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+header, section, footer{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding : 10px;
+    margin: 5px;
+}
+.content-area section:first-of-type{
+    width : 70%;
+}
+.content-area section:last-of-type{
+    width : 30%;
+}
+.content-area1 section:first-of-type{
+    width : 30%;
+}
+.content-area1 section:last-of-type{
+    width : 70%;
+}
